@@ -17,7 +17,7 @@ def analyze_sentiment(text):
 # Example
 # ---------------------------
 if __name__ == "__main__":
-    sample_text = "text"
+    sample_text = "If i break into someone's house i go to jail. If an illegal immigrant breaks into our country they get taxpayers money."
     sentiment = analyze_sentiment(sample_text)
 
     print("Text:", sample_text)
@@ -29,8 +29,8 @@ if __name__ == "__main__":
 # ---------------------------
 # ---------------------------
 # Komentarz negatywny:
-# 
+# If i break into someone's house i go to jail. If an illegal immigrant breaks into our country they get taxpayers money.
 # ---------------------------
 # Komentarz mieszany:
-# 
+# I love it, it's an absolute genius move. Ukraine is writing a masterclass in future warfare. Frankly, I have zero sympathy for the Russians.
 # ---------------------------
